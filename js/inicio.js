@@ -43,6 +43,7 @@ lottie.loadAnimation({
                     e.preventDefault(); 
                     goToByScroll($('#cuarto').attr('id')); 
                     $('#containerCuarto').addClass("animated fadeInUp"); 
+                    $('.card').addClass("animated zoomIn");
 
   });
 
@@ -67,7 +68,7 @@ lottie.loadAnimation({
                     $('#septimo').show();
                     e.preventDefault(); 
                     goToByScroll($('#septimo').attr('id')); 
-                    $('#containerSeptimo').addClass("animated Septimo"); 
+                    $('#containerSeptimo').addClass("animated fadeInUp"); 
 
   });
 
