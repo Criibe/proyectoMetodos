@@ -1,0 +1,38 @@
+html, body, .bloque{
+	height: 100%;
+}
+
+.btn-large{
+  background-color: #0d47a1;
+}
+
+.btn-large:hover {
+  background-color: #1565c0;
+}
+.btn-large:active{
+  background-color: #1976d2;
+}
+
+.nombres{
+	padding-top: 5%;
+}
+
+.superposicion{
+	z-index: 10;
+}
+
+.tam15{
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.contenedor{
+	width: 50%;
+	height: 80%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 2px;
+	margin: auto auto;
+	margin-top: 0.5px;
+	padding-top: 40px;
+}

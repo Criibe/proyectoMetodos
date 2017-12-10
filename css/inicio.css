@@ -1,0 +1,64 @@
+html, body, .bloque{
+	height: 100%;
+}
+
+.btn-large{
+  background-color: #0d47a1;
+}
+
+.radar{
+	height: 40px;
+	width: 40px;
+}
+
+.centro{
+	 margin-left: 20%;
+	 margin-right: 20%;
+}
+
+
+.btn-large:hover {
+  background-color: #1565c0;
+}
+.btn-large:active{
+  background-color: #1976d2;
+}
+
+.nombres{
+	padding-top: 4%;
+}
+
+.superposicion{
+	z-index: 2;
+}
+
+.descripciones{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.delay-1{
+	animation-delay: 500ms;
+}
+
+
+.tam15{
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.padTitle{
+	padding-top: 4em;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.contenedor{
+	width: 50%;
+	height: 80%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 2px;
+	margin: auto auto;
+	margin-top: 0.5px;
+	padding-top: 40px;
+}

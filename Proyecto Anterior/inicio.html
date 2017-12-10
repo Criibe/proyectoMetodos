@@ -1,0 +1,145 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/inicio.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+
+    </head>
+
+    <body>
+	    
+      <div id="primero" class="bloque blue">
+
+        <nav class="target pin-bottom blue superposicion" data-target="primero">
+            <a class="brand-logo">Variables</a>  
+            <ul class="right hide-on-med-and-down">
+              <li><a>Ingresa tus variables</a></li>
+            </ul>
+        </nav>
+
+
+        <form class="col s12 contenedor animated slideInDown">
+
+    	    <div class="row">           
+             <h4 class="blue-text darken-4">¿Cuántas variables tiene el problema?</h4>
+              <div class="input-field container">
+                <input id="variables" type="text" class="validate center-align">
+                <label data-error="Incorrecto" class="indigo-text" data-success="Correcto"></label>
+              </div>
+            </div> 
+
+            <div class="row">           
+             <h4 class="blue-text darken-4">¿Cuántas restricciones?</h4>
+              <div class="input-field container">
+                <input id="restriccion" type="text" class="validate center-align">
+                <label data-error="Incorrecto" class="indigo-text" data-success="Correcto"></label>
+              </div>
+            </div> 
+
+            <div class="row">
+              <a class="waves-effect waves-light btn-large" id="continuar1">Continuar</a>
+            </div>
+          </form>
+     </div>
+
+      <div id="segundo" class="bloque red">
+        <nav class="target red arriba superposicion" data-target="segundo">
+            <a class="brand-logo">Restricciones</a>  
+            <ul class="right hide-on-med-and-down">
+              <li><a>Ingresa la lista de restricciones</a></li>
+            </ul>
+        </nav>
+
+        <form class="col s12 contenedor nombres">
+
+        <div class="container" id="contenedorRestricciones">
+          
+  				<div class="row" >
+
+    				<div class="input-field inline col s3 offset-s1 center-align">
+    						<input type="text" class="validate center-align">
+    				    <label>x1</label>
+    	     	</div>
+
+            <div class="inline col s1 center-align">
+                <label class="tam15 input-field inline"> + </label>
+            </div>
+
+
+    				<div class="input-field inline col s3 center-align">
+    						<input type="text" class="validate center-align">
+    				    <label>x2</label>
+    	     	</div>
+
+              <div class="input-field inline col s2">
+               <select class="center-align">
+                  <option value="">Elige una opción</option>
+                  <option value="1" selected="selected">≤</option>
+                  <option value="2">≥</option>
+                  <option value="3">=</option>
+                </select>
+              </div>
+
+            <div class="input-field inline col s2">
+                <input type="text" class="center-align">
+                <label>z1</label>
+            </div>
+
+          </div>
+        </div>
+
+        	<div class="row">
+             <a class="waves-effect waves-light red btn-large" id="continuar2">Continuar</a>
+            </div>
+        </form>
+
+      </div>
+
+      <div id="tercero" class="bloque green">
+        <nav class="target pin-top green arriba superposicion" data-target="tercero">
+            <a class="brand-logo">Resultados</a>  
+            <ul class="right hide-on-med-and-down">
+              <li><a>Resultado de minimización</a></li>
+            </ul>
+        </nav>
+
+        <div class="row nombres">
+          <h2 class="white-text col s4 offset-s4" id="textoFuncionObjetivo">Función Objetivo</h2>
+        </div>
+
+        <div class="row center-align">
+             <a class="waves-effect waves-light btn-large" id="continuar3">OK</a>
+        </div>
+      </div>
+
+
+      <div id="cuarto" class="bloque black">
+        
+        <nav class="target pin-top black arriba" data-target="cuarto">
+            <a class="brand-logo">Elaborado por</a>  
+            <ul class="right hide-on-med-and-down">
+              <li><a>Modelo de programación lineal</a></li>
+            </ul>
+        </nav>
+
+        <div class="row white-text center-align nombres" id="nombres">
+          <h2>Equipo 7</h2>
+          <h4>Ariza Martínez Arístides</h4>
+          <h4>García Olmedo Cristian Salomón</h4>
+          <h4>Lugo Estrada Fernando Stefan</h4>
+          <h4>Ramírez Montalvo Irene Berenice</h4>
+          </div>
+
+      </div>
+
+      <script src="jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/inicio.js"></script>
+    </body>
+  </html>
+        
